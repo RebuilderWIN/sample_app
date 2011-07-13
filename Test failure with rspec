@@ -1,0 +1,28 @@
+1) PagesController GET 'home' should have the right title
+     Failure/Error: response.should have_selector("title",
+     NoMethodError:
+       undefined method `has_selector?' for #<ActionController::TestResponse:0x00000100fa5ea0>
+     # /Users/winbrisbin/.rvm/gems/ruby-1.9.2-p180/gems/rspec-expectations-2.6.0/lib/rspec/matchers/has.rb:9:in `matches?'
+     # /Users/winbrisbin/.rvm/gems/ruby-1.9.2-p180/gems/rspec-expectations-2.6.0/lib/rspec/expectations/handler.rb:11:in `handle_matcher'
+     # /Users/winbrisbin/.rvm/gems/ruby-1.9.2-p180/gems/rspec-expectations-2.6.0/lib/rspec/expectations/extensions/kernel.rb:27:in `should'
+     # /Users/winbrisbin/Documents/Ruby/work_rails/rails_projects/sample_app/spec/controllers/pages_controller_spec.rb:14:in `block (3 levels) in <top (required)>'
+     # /Users/winbrisbin/.rvm/gems/ruby-1.9.2-p180/gems/rspec-core-2.6.4/lib/rspec/core/example.rb:48:in `instance_eval'
+     # /Users/winbrisbin/.rvm/gems/ruby-1.9.2-p180/gems/rspec-core-2.6.4/lib/rspec/core/example.rb:48:in `block in run'
+     # /Users/winbrisbin/.rvm/gems/ruby-1.9.2-p180/gems/rspec-core-2.6.4/lib/rspec/core/example.rb:107:in `with_around_hooks'
+     # /Users/winbrisbin/.rvm/gems/ruby-1.9.2-p180/gems/rspec-core-2.6.4/lib/rspec/core/example.rb:45:in `run'
+     # /Users/winbrisbin/.rvm/gems/ruby-1.9.2-p180/gems/rspec-core-2.6.4/lib/rspec/core/example_group.rb:294:in `block in run_examples'
+     # /Users/winbrisbin/.rvm/gems/ruby-1.9.2-p180/gems/rspec-core-2.6.4/lib/rspec/core/example_group.rb:290:in `map'
+     # /Users/winbrisbin/.rvm/gems/ruby-1.9.2-p180/gems/rspec-core-2.6.4/lib/rspec/core/example_group.rb:290:in `run_examples'
+     # /Users/winbrisbin/.rvm/gems/ruby-1.9.2-p180/gems/rspec-core-2.6.4/lib/rspec/core/example_group.rb:262:in `run'
+     # /Users/winbrisbin/.rvm/gems/ruby-1.9.2-p180/gems/rspec-core-2.6.4/lib/rspec/core/example_group.rb:263:in `block in run'
+     # /Users/winbrisbin/.rvm/gems/ruby-1.9.2-p180/gems/rspec-core-2.6.4/lib/rspec/core/example_group.rb:263:in `map'
+     # /Users/winbrisbin/.rvm/gems/ruby-1.9.2-p180/gems/rspec-core-2.6.4/lib/rspec/core/example_group.rb:263:in `run'
+     # /Users/winbrisbin/.rvm/gems/ruby-1.9.2-p180/gems/rspec-core-2.6.4/lib/rspec/core/command_line.rb:24:in `block (2 levels) in run'
+     # /Users/winbrisbin/.rvm/gems/ruby-1.9.2-p180/gems/rspec-core-2.6.4/lib/rspec/core/command_line.rb:24:in `map'
+     # /Users/winbrisbin/.rvm/gems/ruby-1.9.2-p180/gems/rspec-core-2.6.4/lib/rspec/core/command_line.rb:24:in `block in run'
+     # /Users/winbrisbin/.rvm/gems/ruby-1.9.2-p180/gems/rspec-core-2.6.4/lib/rspec/core/reporter.rb:12:in `report'
+     # /Users/winbrisbin/.rvm/gems/ruby-1.9.2-p180/gems/rspec-core-2.6.4/lib/rspec/core/command_line.rb:21:in `run'
+     # /Users/winbrisbin/.rvm/gems/ruby-1.9.2-p180/gems/rspec-core-2.6.4/lib/rspec/core/runner.rb:80:in `run_in_process'
+     # /Users/winbrisbin/.rvm/gems/ruby-1.9.2-p180/gems/rspec-core-2.6.4/lib/rspec/core/runner.rb:69:in `run'
+     # /Users/winbrisbin/.rvm/gems/ruby-1.9.2-p180/gems/rspec-core-2.6.4/lib/rspec/core/runner.rb:11:in `block in autorun'
+
